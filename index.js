@@ -8,3 +8,8 @@ function produceDrivingRange(range) {
     }
   };
 }
+function produceTipCalculator(percentage) {
+  return function (fare) {
+    return fare * percentage;
+  };
+}
